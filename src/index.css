@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+}
+
+form {
+  width: 100%;
+  height: 100vh;
+}
+form .form-inputs {
+  width: 100%;
+  margin: 1rem 0;
+}
+form .form-inputs .form-input {
+  width: 100%;
+  margin: 1rem 0;
+}
+
+form .form-inputs .form-input label,
+form .form-inputs .form-input input {
+  display: block;
+}
+form .form-inputs .form-input label {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+form .form-inputs .form-input input {
+  width: 100%;
+  padding: 0.55rem 1rem;
+}
+
+.cv {
+  width: 100%;
+  height: 100vh;
+}
+
+.cv div {
+  margin-bottom: 1.5rem;
+}
+
+.cv div h1 {
+  margin-bottom: 1rem;
+}
+
+.cv div p {
+  margin: 0.5rem 0;
+}
